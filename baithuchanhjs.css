@@ -1,0 +1,41 @@
+/* Định dạng body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Định dạng menu */
+.menu {
+    background-color: #00ffff; /* Màu nền xanh nhạt */
+    padding: 10px 0; /* Tạo khoảng cách trên và dưới */
+}
+
+.menu ul {
+    list-style: none; /* Loại bỏ ký hiệu chấm đầu dòng */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Hiển thị các phần tử theo chiều ngang */
+    justify-content: center; /* Căn giữa menu */
+}
+
+.menu ul li {
+    margin: 0 15px; /* Tạo khoảng cách giữa các mục */
+}
+
+.menu ul li a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    padding: 10px 20px; /* Tạo vùng bấm */
+    background-color: #0000ff; /* Màu nền xanh đậm */
+    color: white; /* Màu chữ trắng */
+    display: block; /* Định dạng khối */
+    border-radius: 5px; /* Bo góc nhẹ cho nút */
+    font-weight: bold; /* Tăng độ đậm cho chữ */
+}
+
+/* Hiệu ứng hover */
+.menu ul li a:hover {
+    background-color: #ff00ff; /* Màu nền chuyển sang hồng */
+    color: #fff; /* Giữ chữ màu trắng */
+    transition: background-color 0.3s ease; /* Tạo hiệu ứng mượt */
+}
